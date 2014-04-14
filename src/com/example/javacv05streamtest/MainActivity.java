@@ -41,8 +41,9 @@ public class MainActivity extends Activity implements OnClickListener {
 
     private PowerManager.WakeLock mWakeLock;
 
-	private String ffmpeg_link = "rtmp://username:password@xxx.xxx.xxx.xxx:1935/live/test.flv";
-    //private String ffmpeg_link = "/mnt/sdcard/new_stream.flv";
+//	private String ffmpeg_link = "rtmp://username:password@xxx.xxx.xxx.xxx:1935/live/test.flv";
+    private String ffmpeg_link = "rtmp://mackhowell:blueberries@192.168.1.108:1935/live/test.flv";
+//    private String ffmpeg_link = "/mnt/sdcard/new_stream.flv";
 	
     private volatile FFmpegFrameRecorder recorder;
     boolean recording = false;
